@@ -5,3 +5,8 @@ const arrayOfNumbers = [
 ];
 
 console.log(_.shuffle(arrayOfNumbers));
+
+import { capitalizeMyString, greeting } from "./utils.js";
+
+console.log(capitalizeMyString("capitalize my string."));
+console.log(greeting("Treasure"));
